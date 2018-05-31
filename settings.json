@@ -1,0 +1,60 @@
+{
+    "editor.tokenColorCustomizations": {
+        "comments": "#4e6b41"
+    },
+    "editor.detectIndentation": false,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+            // "ext": ["js", "json"]
+            // ^^ to set extensions to be beautified using the javascript beautifier
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "cshtml"
+        ]
+        // ^^ providing just an array sets the VS Code file type
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "vsicons.projectDetection.disableDetect": true,
+    "editor.minimap.enabled": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.js.map": true
+        // "**/*.js": {
+        //     "when": "$(basename).ts"
+        // },
+    },
+    "emmet.includeLanguages": {
+        "razor": "html"
+    },
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "php",
+        "python": "python",
+        "perl": "perl",
+        "ruby": "ruby",
+        "go": "go run",
+        "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\""
+    },
+    "git.enableSmartCommit": true
+}
